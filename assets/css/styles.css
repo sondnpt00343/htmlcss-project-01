@@ -129,3 +129,31 @@ a {
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
 }
+
+/* ======== Clients ======== */
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.clients .row-desc {
+    margin-top: 23px;
+}
+
+.clients .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 96px;
+}
