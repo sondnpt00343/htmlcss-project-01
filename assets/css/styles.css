@@ -43,6 +43,13 @@ a {
     opacity: 0.9;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* ======== Header ======== */
 .header {
     position: relative;
@@ -301,10 +308,10 @@ a {
     padding: 17px 20px 24px;
 }
 
-.featured .item .title {
+.featured .item .title a {
     font-weight: 600;
     font-size: 2rem;
-    line-height: 1;
+    line-height: 1.5;
     color: #000339;
 }
 
@@ -314,6 +321,7 @@ a {
     font-size: 1.4rem;
     line-height: 1.5;
     color: #a3a6ab;
+    word-break: break-all;
 }
 
 .featured .item .info {
