@@ -427,10 +427,7 @@ a {
     margin-left: -3px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-.stats .avatar-1 {
-    background: #1f3bb1;
+    background: var(--bg-color, #fff);
     font-weight: 450;
     font-size: 0.7rem;
     line-height: 16px;
