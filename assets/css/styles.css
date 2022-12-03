@@ -367,11 +367,50 @@ a {
     width: 50%;
 }
 
+.stats .img-block {
+    position: relative;
+}
+
 .stats .info {
     padding: 79px 0 0 165px;
 }
 
-.stats .img-block img {
+.stats-trend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 239px;
+    padding: 45px 22px 40px;
+    border-radius: 0px 0px 12px 12px;
+    background-color: #fff;
+}
+
+.stats-trend .value {
+    font-weight: 700;
+    font-size: 2.6rem;
+    letter-spacing: 0.01em;
+    color: #000339;
+}
+
+.stats-trend .icon {
+    margin-left: auto;
+}
+
+.stats-trend .desc {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #a7a7a7;
+}
+
+.stats-trend .separate {
+    height: 1px;
+    margin-top: 25px;
+    background: #e9e9e9;
+}
+
+.stats .img-block .image {
     display: block;
     margin-left: auto;
     width: 400px;
@@ -401,7 +440,7 @@ a {
     border-radius: 12px;
 }
 
-.stats .desc {
+.stats .info .desc {
     width: 309px;
     margin-top: 20px;
     font-weight: 400;
