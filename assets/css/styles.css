@@ -405,7 +405,7 @@ a {
 }
 
 .stats-trend .separate {
-    height: 1px;
+    height: 1.2px;
     margin-top: 25px;
     background: #e9e9e9;
 }
@@ -434,6 +434,10 @@ a {
     text-align: center;
     letter-spacing: -0.02em;
     color: #ffffff;
+}
+
+.stats .avatar:first-child {
+    margin-left: 0;
 }
 
 .stats .img-block .image {
@@ -473,4 +477,23 @@ a {
     font-size: 1.6rem;
     line-height: 1.88;
     color: #5a6473;
+}
+
+.stats .row-qty {
+    justify-content: space-between;
+    margin-top: 110px;
+    padding: 0 32px;
+}
+
+.stats .qty {
+    font-weight: 600;
+    font-size: 6.4rem;
+    color: #000000;
+}
+
+.stats .qty-desc {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #7b8087;
 }
